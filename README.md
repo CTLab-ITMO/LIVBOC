@@ -3,7 +3,7 @@
 [Sergey Muravyov](mursmail@gmail.com), 
 [Valeria Efimova](valeryefimova@gmail.com), 
 
-We introduce a new image vectorization method that generates SVG images from raster images with the help of Bayesian optimization algorithm to optimize key parameters for extracting contours and turning them into vectors, and the K-means algorithm to extract the suitable color for that vector. Then that vector is optimized to properly align with the targeted shape.
+We introduce a new image vectorization method that generates SVG images from raster images with the help of Bayesian optimization algorithm to optimize key parameters for extracting contours and turning them into vectors, and the K-means algorithm to extract the suitable colors for these vectors. Then these vectors are optimized to properly align with the targeted shapes.
 
 <br><br>
 <div>
