@@ -1,0 +1,42 @@
+^C:\USERS\ASUS\PYCHARMPROJECTS\TEXT2VECIMG\MY-LIVE\LIVE-LAYERWISE-IMAGE-VECTORIZATION\DIFFVG\DIFFVG.CPP
+setlocal
+cd C:\Users\asus\PycharmProjects\text2vecImg\My-LIVE\LIVE-Layerwise-Image-Vectorization\DiffVG\build\temp.win-amd64-cpython-310\Release\CMakeFiles\diffvg.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\asus\.conda\envs\live\Library\bin\cmake.exe -E make_directory C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/diffvg.dir//Release
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\asus\.conda\envs\live\Library\bin\cmake.exe -D verbose:BOOL=OFF -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Release -D generated_file:STRING=C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/diffvg.dir//Release/diffvg_generated_diffvg.cpp.obj -D generated_cubin_file:STRING=C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/diffvg.dir//Release/diffvg_generated_diffvg.cpp.obj.cubin.txt -P C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/diffvg.dir//diffvg_generated_diffvg.cpp.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ASUS\PYCHARMPROJECTS\TEXT2VECIMG\MY-LIVE\LIVE-LAYERWISE-IMAGE-VECTORIZATION\DIFFVG\SCENE.CPP
+setlocal
+cd C:\Users\asus\PycharmProjects\text2vecImg\My-LIVE\LIVE-Layerwise-Image-Vectorization\DiffVG\build\temp.win-amd64-cpython-310\Release\CMakeFiles\diffvg.dir
+if %errorlevel% neq 0 goto :cmEnd
+C:
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\asus\.conda\envs\live\Library\bin\cmake.exe -E make_directory C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/diffvg.dir//Release
+if %errorlevel% neq 0 goto :cmEnd
+C:\Users\asus\.conda\envs\live\Library\bin\cmake.exe -D verbose:BOOL=OFF -D "CCBIN:PATH=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools/MSVC/14.29.30133/bin/Hostx64/x64" -D build_configuration:STRING=Release -D generated_file:STRING=C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/diffvg.dir//Release/diffvg_generated_scene.cpp.obj -D generated_cubin_file:STRING=C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/diffvg.dir//Release/diffvg_generated_scene.cpp.obj.cubin.txt -P C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/diffvg.dir//diffvg_generated_scene.cpp.obj.Release.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\ASUS\PYCHARMPROJECTS\TEXT2VECIMG\MY-LIVE\LIVE-LAYERWISE-IMAGE-VECTORIZATION\DIFFVG\CMAKELISTS.TXT
+setlocal
+C:\Users\asus\.conda\envs\live\Library\bin\cmake.exe -SC:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG -BC:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release --check-stamp-file C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

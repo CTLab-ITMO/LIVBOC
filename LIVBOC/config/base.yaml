@@ -1,0 +1,296 @@
+
+default:
+  use_ycrcb: False
+  seginit:
+    type: circle
+    radius: 5
+  save:
+    init: true
+    image: true
+    output: true
+    video: true
+    loss: false
+  trainable: 
+    bg: False
+    record: True
+    stroke: False
+#  num_segments: 4 and number of points in total is adaptive to the shape contoured, but for the LIVE mehtod number of points is 12 in total and segments number is 4
+  num_iter: 30
+  lr_base:
+    bg: 0.001
+    point: 2.
+    color: 0.005
+    stroke_width: 1.0
+    stroke_color: 1.0
+  coord_init:
+    type: sparse
+  seed: 0
+  loss:
+    use_l1_loss: false
+    use_distance_weighted_loss: true
+    smoothness_loss_weight: 0.005
+    overlap_weight: 0.005
+    bis_loss_weight: null
+
+experiment_1:
+  path_schedule:
+    type: list
+    schedule: [1]
+
+experiment_3_1x3:
+  path_schedule:
+    type: list
+    schedule: [3, 1,1,1]
+
+experiment_20:
+  path_schedule:
+    type: list
+    schedule: [20]
+
+experiment_4x4:
+  path_schedule:
+    type: list
+    schedule: [4, 4, 4, 4]
+experiment_7x5:
+  path_schedule:
+    type: list
+    schedule: [7, 7, 7, 7, 7]
+experiment_8844:
+  path_schedule:
+    type: list
+    schedule: [8, 8, 4, 4]
+
+experiment_16x3:
+  path_schedule:
+    type: list
+    schedule: [32, 16]
+experiment_80:
+  path_schedule:
+    type: list
+    schedule: [16, 16, 16, 16, 16]
+experiment_16:
+  path_schedule:
+    type: list
+    schedule: [16]
+
+experiment_32x2:
+  path_schedule:
+    type: list
+    schedule: [32, 32]
+
+experiment_32x4:
+  path_schedule:
+    type: list
+    schedule: [32, 32, 32, 32]
+
+experiment_64x5:
+  path_schedule:
+    type: list
+    schedule: [64, 64, 64, 64, 64]
+experiment_32x16:
+  path_schedule:
+    type: list
+    schedule: [32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32, 32]
+
+experiment_32x8:
+  path_schedule:
+    type: list
+    schedule: [32, 32, 32, 32, 32, 32, 32, 16, 16]
+
+experiment_16x3_8x10:
+  path_schedule:
+    type: list
+    schedule: [32, 16, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8]
+
+experiment_64x2:
+  path_schedule:
+    type: list
+    schedule: [64, 64]
+
+experiment_88161616:
+  path_schedule:
+    type: list
+    schedule: [8, 8, 16, 16, 16]
+
+experiment_16x8:
+  path_schedule:
+    type: list
+    schedule: [16, 16, 16, 16, 16, 16, 16, 16]
+
+experiment_16x4:
+  path_schedule:
+    type: list
+    schedule: [16, 16, 16, 16]
+
+experiment_1688:
+  path_schedule:
+    type: list
+    schedule: [16, 8, 8]
+
+experiment_50:
+  path_schedule:
+    type: list
+    schedule: [50]
+
+experiment_16x2:
+  path_schedule:
+    type: list
+    schedule: [16, 16]
+
+experiment_448:
+  path_schedule:
+    type: list
+    schedule: [16, 16, 16, 16, 16, 16, 16, 16, 32, 32, 32, 32, 64, 64, 64]
+
+
+experiment_4x1:
+  path_schedule:
+    type: repeat
+    max_path: 1
+    schedule_each: 1
+
+
+experiment_5x1:
+  path_schedule:
+    type: repeat
+    max_path: 5
+    schedule_each: 1
+
+experiment_8x1:
+  path_schedule:
+    type: repeat
+    max_path: 8
+    schedule_each: 1
+
+experiment_16x1:
+  path_schedule:
+    type: repeat
+    max_path: 16
+    schedule_each: 1
+
+experiment_32x1:
+  path_schedule:
+    type: repeat
+    max_path: 32
+    schedule_each: 1
+
+experiment_64x1:
+  path_schedule:
+    type: repeat
+    max_path: 64
+    schedule_each: 1
+
+experiment_1357:
+  path_schedule:
+    type: list
+    schedule: [1, 3, 5, 7]
+
+experiment_12223:
+  path_schedule:
+    type: list
+    schedule: [1, 2, 2, 2, 3]
+
+
+experiment_4481616:
+  path_schedule:
+    type: list
+    schedule: [4, 4, 8, 16, 16]
+
+experiment_448161616:
+  path_schedule:
+    type: list
+    schedule: [4, 4, 8, 16, 16, 16]
+
+experiment_87654321:
+  path_schedule:
+    type: list
+    schedule: [8, 7, 6, 5, 4, 3, 2, 1]
+
+experiment_164444:
+  path_schedule:
+    type: list
+    schedule: [16, 4, 4, 4, 4]
+
+experiment_1616:
+  path_schedule:
+    type: list
+    schedule: [16, 16]
+
+experiment_8816161632:
+  path_schedule:
+    type: list
+    schedule: [8, 8, 16, 16, 16, 32]
+
+experiment_44816:
+  path_schedule:
+    type: list
+    schedule: [4, 4, 8, 16]
+
+
+
+experiment_16x5:
+  path_schedule:
+    type: list
+    schedule: [16, 16, 16, 16, 16]
+
+experiment_16x16:
+  path_schedule:
+    type: list
+    schedule: [8, 8, 8, 8, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
+
+experiment_10:
+  path_schedule:
+    type: list
+    schedule: [1, 2, 3, 4]
+
+experiment_64:
+  path_schedule:
+    type: list
+    schedule: [64]
+
+experiment_4x32:
+  path_schedule:
+    type: list
+    schedule: [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4]
+
+
+experiment_16x32:
+  path_schedule:
+    type: list
+    schedule: [16, 16, 16, 16, 16, 16, 16, 16, 32, 32, 32, 32, 64, 64, 64, 64]
+
+experiment_exp2_32:
+  path_schedule:
+    type: exp
+    base: 2
+    max_path: 32
+    max_path_per_iter: 16
+
+experiment_exp2_64:
+  path_schedule:
+    type: exp
+    base: 2
+    max_path: 64
+    max_path_per_iter: 16
+
+experiment_exp3_128:
+  path_schedule:
+    type: exp
+    base: 3
+    max_path: 128
+    max_path_per_iter: 27
+
+experiment_exp4_450:
+  path_schedule:
+    type: exp
+    base: 2
+    max_path: 450
+    max_path_per_iter: 2
+
+experiment_exp2_128:
+  path_schedule:
+    type: exp
+    base: 2
+    max_path: 128
+    max_path_per_iter: 32
+

@@ -1,0 +1,10 @@
+^C:\USERS\ASUS\PYCHARMPROJECTS\TEXT2VECIMG\MY-LIVE\LIVE-LAYERWISE-IMAGE-VECTORIZATION\DIFFVG\BUILD\TEMP.WIN-AMD64-CPYTHON-310\RELEASE\CMAKEFILES\81B6CDDDF4652E948A19FBF88A38FC89\GENERATE.STAMP.RULE
+setlocal
+C:\Users\asus\.conda\envs\live\Library\bin\cmake.exe -SC:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG -BC:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/diffvg.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

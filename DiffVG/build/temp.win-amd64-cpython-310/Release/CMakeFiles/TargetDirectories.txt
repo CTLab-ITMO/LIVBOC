@@ -1,0 +1,4 @@
+C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/diffvg.dir
+C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/ALL_BUILD.dir
+C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/CMakeFiles/ZERO_CHECK.dir
+C:/Users/asus/PycharmProjects/text2vecImg/My-LIVE/LIVE-Layerwise-Image-Vectorization/DiffVG/build/temp.win-amd64-cpython-310/Release/pybind11/CMakeFiles/ALL_BUILD.dir
