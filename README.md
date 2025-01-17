@@ -1,5 +1,5 @@
 # LIVBOC - Layerwise Image Vectorization via Bayesian-Optimized Contours (VISAPP 2025)
-[Ghfran Jabour](ghoghoghfran.jabour@gmail.com), 
+[Ghfran Jabour](https://github.com/ghfranj), 
 [Sergey Muravyov](mursmail@gmail.com), 
 [Valeria Efimova](valeryefimova@gmail.com), 
 
@@ -37,7 +37,7 @@ We suggest users to use the conda for creating new python environment.
 **Requirement**: 5.0<GCC<6.0;  nvcc >10.0.
 
 ```bash
-git clone https://github.com/ghfranj/Layerwise-Image-Vectorization-Via-Bayesian-Optimized-Contour.git
+git clone https://github.com/CTLab-ITMO/LIVBOC.git
 conda create -n livboc python=3.10
 conda activate livboc
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia
