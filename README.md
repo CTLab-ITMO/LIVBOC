@@ -1,4 +1,4 @@
-# LIVBOC- Layerwise Image Vectorization via Bayesian-Optimized Contours (VISAPP 2025)
+# LIVBOC - Layerwise Image Vectorization via Bayesian-Optimized Contours (VISAPP 2025)
 [Ghfran Jabour](ghoghoghfran.jabour@gmail.com), 
 [Sergey Muravyov](mursmail@gmail.com), 
 [Valeria Efimova](valeryefimova@gmail.com), 
