@@ -68,7 +68,8 @@ Our implementation is mainly based on the [diffvg](https://github.com/BachiLi/di
 
 
 ## LICENSE
-LIVBOC is a derivative of the LIVE project and remains under the Apache-2.0 license.
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
 
 
 
